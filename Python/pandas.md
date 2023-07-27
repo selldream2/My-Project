@@ -4,7 +4,7 @@ Import library with `import pandas as pd`
 
 Import .csv file as dataframe, df with `df = pd.read_csv()`
 
-```type(df)```
+`type(df)`
 
 `df.shape`
 
