@@ -1,8 +1,8 @@
 #### Pandans DataFrame Basics
 
-import library with `import pandas as pd`
+Import library with `import pandas as pd`
 
-`df = pd.read_csv()`
+Import .csv file as dataframe, df with `df = pd.read_csv()`
 
 `type(df)`
 
