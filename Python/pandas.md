@@ -21,8 +21,16 @@
 subset need `[[...]]`
 - outer `[]` tells subset
 - inner `[]` tells lists of columns
-
-subset = df[['country', 'year']]
+- subset = df[['country', 'year']]
 
 Cannot pass index in dataframe.  if you want, `.iloc[]` notation needed.
+
+"Series" object is from a single columns from dataframe
+- country_df = df['country']
+
+"list" object is from double blanket `[[...]]`
+- country_df_list = df[['country']]
+
+"." Dot notation is available
+- df.country
 
