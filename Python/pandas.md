@@ -1,29 +1,24 @@
-#### Pandans DataFrame Basics
+### Pandans DataFrame Basics
 
-Import library with `import pandas as pd`
+#### Import library with `import pandas as pd`
 
-Import .csv file as dataframe, df with `df = pd.read_csv()`
+#### Import .csv file as dataframe, df with `df = pd.read_csv()`
 
-`type(df)`
+#### Getting basic information of dataframe
+- `type(df)`
+- `df.shape`
+- `df.columns`
+- `df.dtypes`
+- `df.info()`
+- `df.head()`
+- `df.tail()`
 
-`df.shape`
-
-`df.columns`
-
-`df.dtypes`
-
-`df.info()`
-
-`df.head()`
-
-`df.tail()`
-
-`df['country']`
-
-subset need `[[...]]`
-- outer `[]` tells subset
-- inner `[]` tells lists of columns
-- subset = df[['country', 'year']]
+### Slice
+- column select `df['country']`
+- subset need `[[...]]`
+  - outer `[]` tells subset
+  - inner `[]` tells lists of columns
+  - subset = df[['country', 'year']]
 
 Cannot pass index in dataframe.  if you want, `.iloc[]` notation needed.
 
