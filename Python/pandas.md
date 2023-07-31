@@ -12,6 +12,7 @@
 - `df.info()`
 - `df.head()`
 - `df.tail()`
+- `df.describe()`
 
 ### Slice
 - column select `df['country']`
