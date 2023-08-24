@@ -45,7 +45,7 @@ Cannot pass index in dataframe.  if you want, `.iloc[]` notation needed.
  `df.loc[0]` is series
 
  slice
- - `df.loc[:, ['year`, 'pop']`
+ - `df.loc[:, ['year', 'pop']`
  - `df.iloc[:, [2, 4, -1]]`
  - `df.iloc[:, 3:6]`
  - multiple row and column `df.iloc[[0,99,999], [0, 3, 5]]`
