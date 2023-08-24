@@ -6,14 +6,18 @@
 
 #### Getting basic information of dataframe
 - `type(df)`
-- `df.shape`
+- `df.shape` : review data size
 - `df.columns`
 - `df.dtypes`
-- `df.info()`
+- `df.info()` : review data type
 - `df.head()`
 - `df.tail()`
 - `df.describe()`
 
+### Handle Null
+- `df.isnull.sum()` : get total no of null
+- `df.dropna(subset['sample'], how = all, inplace = True)` : drop null
+  
 ### Slice
 - column select `df['country']`
 - subset need `[[...]]`
