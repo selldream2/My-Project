@@ -19,7 +19,7 @@
 - `df.dropna(subset['sample'], how = all, inplace = True)` : drop null
 
 ### Useful scripts
-- `pd.Series(df.duplicated().value_counts())` : count duplicated
+- `pd.Series(df.duplicated()).value_counts()` : count duplicated
 - 
 ### Slice
 - column select `df['country']`
