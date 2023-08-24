@@ -18,9 +18,9 @@
 - `df.isnull.sum()` : get total no of null
 - `df.dropna(subset['sample'], how = all, inplace = True)` : drop null
 
-### Useful scripts
+### Handle duplicate
 - `pd.Series(df.duplicated()).value_counts()` : count duplicated
-- `df.drop_duplicates(keep='first') : remove duplicated
+- `df.drop_duplicates(keep='first')` : remove duplicated
   
 ### Slice
 - column select `df['country']`
