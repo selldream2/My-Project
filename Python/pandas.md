@@ -20,7 +20,8 @@
 
 ### Useful scripts
 - `pd.Series(df.duplicated()).value_counts()` : count duplicated
-- 
+- `df.drop_duplicates(keep='first') : remove duplicated
+  
 ### Slice
 - column select `df['country']`
 - subset need `[[...]]`
