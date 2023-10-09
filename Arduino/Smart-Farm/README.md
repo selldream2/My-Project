@@ -1,1 +1,1 @@
-Smart-Farm project from training kit
+# Smart-Farm project from training kit
