@@ -14,3 +14,8 @@ Article source (https://randomnerdtutorials.com/guide-for-oled-display-with-ardu
   - GND : GND
   - SCL	: A5
   - SDA	: A4
+
+- Libraries
+  - To control the OLED display you need the adafruit_SSD1306.h and the adafruit_GFX.h libraries. Follow the next instructions to install those libraries.
+  - Open your Arduino IDE and go to Sketch > Include Library > Manage Libraries. The Library Manager should open.
+  - Type “SSD1306” in the search box and install the SSD1306 library from Adafruit.
