@@ -1,5 +1,6 @@
 ### SSD1306 0.96 inch I2C OLED display for the Arduino
-Article source (https://randomnerdtutorials.com/guide-for-oled-display-with-arduino/)
+### You can find the example codes in full article source in detail here.
+### https://randomnerdtutorials.com/guide-for-oled-display-with-arduino/
 
 
 
@@ -19,3 +20,12 @@ Article source (https://randomnerdtutorials.com/guide-for-oled-display-with-ardu
   - To control the OLED display you need the adafruit_SSD1306.h and the adafruit_GFX.h libraries. Follow the next instructions to install those libraries.
   - Open your Arduino IDE and go to Sketch > Include Library > Manage Libraries. The Library Manager should open.
   - Type “SSD1306” in the search box and install the SSD1306 library from Adafruit.
+  - After installing the SSD1306 library from Adafruit, type “GFX” in the search box and install the library
+
+- Funtions
+  - `display.clearDisplay()` – all pixels are off
+  - `display.drawPixel(x,y, color)` – plot a pixel in the x,y coordinates
+  - `display.setTextSize(n)` – set the font size, supports sizes from 1 to 8
+  - `display.setCursor(x,y)` – set the coordinates to start writing text
+  - `display.print(“message”)` – print the characters at location x,y
+  - `display.display()` – call this method for the changes to make effect
